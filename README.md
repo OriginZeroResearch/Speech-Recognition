@@ -7,9 +7,8 @@ Two considerations:
 (2) It is not sophisticated enough to distinguish users - you would have to use an ANN for that.
 
 To start:
-you must make sure that you have Speech Recognition installed
-Open your terminal and type install speechrecognition
-In your IDE, install Speech Recognition as an interpreter
+(1) Open your terminal and type install speechrecognition
+(2) In your IDE, install Speech Recognition as an interpreter
 
 CODE:
 
