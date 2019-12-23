@@ -26,6 +26,3 @@ CODE:
         try:
             text = r.recognize_google(audio)
             print(text)
-
-        except:
-            print('Sorry...run again')
