@@ -1,4 +1,4 @@
-# Speech-Recognition
+# Speech-Recognition: File to Text
 Speech Recognition - Audio File to Text <br>
 This script can be used to translate .Wav files to text.
 <br>
