@@ -1,6 +1,5 @@
 # Speech-Recognition: .Wav File to Text
-Speech Recognition - Audio File to Text <br>
-This script can be used to translate .Wav files to text.
+Speech Recognition; .Wav File to Text <br>
 <br>
 <br>
 Two considerations:<br>
@@ -8,15 +7,17 @@ Two considerations:<br>
 (2) It is not sophisticated enough to distinguish users - you would have to use an ANN for that.<br>
 
 To start:<br>
-(1) Open your terminal and type install speechrecognition<br>
+(1) Open your terminal and type: install speechrecognition<br>
 (2) In your IDE, install Speech Recognition as an interpreter<br>
 <br>
 CODE:
 
 
     import speech_recognition as sr
-
+    
+    # .wav file must be in the same folder as your script
     from os import path
+    # call your .Wav file 
     AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "TestFile.wav")
 
     r = sr.Recognizer()
