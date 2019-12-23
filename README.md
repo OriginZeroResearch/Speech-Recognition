@@ -9,20 +9,4 @@ In your IDE:<br>
 (1) Open your terminal and type: install speechrecognition<br>
 (2) Open your preferences and install SpeechRecognition as an interpreter<br>
 <br>
-Code:
 
-
-    import speech_recognition as sr
-    
-    # .wav file must be in the same folder as your script
-    from os import path
-    # call your .Wav file 
-    AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "YourFileName.wav")
-
-    r = sr.Recognizer()
-    with sr.AudioFile(AUDIO_FILE) as source:
-        audio = r.listen(source)
-
-        try:
-            text = r.recognize_google(audio)
-            print(text)
