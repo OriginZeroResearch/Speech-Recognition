@@ -18,7 +18,7 @@ CODE:
     # .wav file must be in the same folder as your script
     from os import path
     # call your .Wav file 
-    AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "TestFile.wav")
+    AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "FileName.wav")
 
     r = sr.Recognizer()
     with sr.AudioFile(AUDIO_FILE) as source:
