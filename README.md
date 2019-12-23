@@ -7,7 +7,7 @@ Two considerations:<br>
 
 To start:<br>
 (1) Open your terminal and type: install speechrecognition<br>
-(2) In your IDE, install Speech Recognition as an interpreter<br>
+(2) In your IDE, install SpeechRecognition as an interpreter<br>
 <br>
 CODE:
 
