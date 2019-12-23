@@ -1,15 +1,15 @@
 # Speech-Recognition
-Speech Recognition - Audio File to Text
+Speech Recognition - Audio File to Text <br>
 This script can be used to translate .Wav files to text.
+<br>
+Two considerations:<br>
+(1) Speech recognition does not work on low volume<br>
+(2) It is not sophisticated enough to distinguish users - you would have to use an ANN for that.<br>
 
-Two considerations:
-(1) Speech recognition does not work on low volume
-(2) It is not sophisticated enough to distinguish users - you would have to use an ANN for that.
-
-To start:
-(1) Open your terminal and type install speechrecognition
-(2) In your IDE, install Speech Recognition as an interpreter
-
+To start:<br>
+(1) Open your terminal and type install speechrecognition<br>
+(2) In your IDE, install Speech Recognition as an interpreter<br>
+<br>
 CODE:
 
 
