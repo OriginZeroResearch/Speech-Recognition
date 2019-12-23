@@ -14,18 +14,18 @@ In your IDE, install Speech Recognition as an interpreter
 CODE:
 
 
-import speech_recognition as sr
+    import speech_recognition as sr
 
-from os import path
-AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "TestFile.wav")
+    from os import path
+    AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "TestFile.wav")
 
-r = sr.Recognizer()
-with sr.AudioFile(AUDIO_FILE) as source:
-    audio = r.listen(source)
+    r = sr.Recognizer()
+    with sr.AudioFile(AUDIO_FILE) as source:
+        audio = r.listen(source)
 
-    try:
-        text = r.recognize_google(audio)
-        print(text)
+        try:
+            text = r.recognize_google(audio)
+            print(text)
 
-    except:
-        print('Sorry...run again')
+        except:
+            print('Sorry...run again')
