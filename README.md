@@ -13,14 +13,11 @@ In your IDE, install Speech Recognition as an interpreter
 
 CODE:
 
-#import speech recognition
+
 import speech_recognition as sr
 
-#.Wav file must be in same folder as script
 from os import path
-#connect to path and get file
 AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "TestFile.wav")
-
 
 r = sr.Recognizer()
 with sr.AudioFile(AUDIO_FILE) as source:
