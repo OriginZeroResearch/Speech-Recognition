@@ -2,6 +2,7 @@
 Speech Recognition - Audio File to Text <br>
 This script can be used to translate .Wav files to text.
 <br>
+<br>
 Two considerations:<br>
 (1) Speech recognition does not work on low volume<br>
 (2) It is not sophisticated enough to distinguish users - you would have to use an ANN for that.<br>
