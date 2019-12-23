@@ -1,5 +1,5 @@
 # Speech-Recognition: .Wav File to Text
-Speech Recognition; .Wav File to Text <br>
+Speech Recognition: .Wav File to Text <br>
 <br>
 <br>
 Two considerations:<br>
